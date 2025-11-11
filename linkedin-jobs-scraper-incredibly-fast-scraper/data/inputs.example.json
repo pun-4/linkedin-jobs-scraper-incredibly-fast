@@ -1,0 +1,12 @@
+{
+  "search_url": "https://www.linkedin.com/jobs/search?keywords=Software%20Engineer&location=New%20York%2C%20United%20States",
+  "max_jobs": 200,
+  "output_format": "csv",
+  "output_file": "data/nyc_software_engineer_jobs.csv",
+  "filters": {
+    "title_contains": ["Software Engineer", "Backend Engineer"],
+    "locations": ["New York", "NY", "Remote"],
+    "seniority_levels": ["Entry-Level", "Mid-Level", "Associate"],
+    "employment_types": ["Full-Time"]
+  }
+}
